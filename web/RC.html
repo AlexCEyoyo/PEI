@@ -37,7 +37,7 @@
       }
       .row.content {height:auto;} 
     }
-    #alert{
+    #alert3{
         width: 300px;
         padding: 10px;
         background-color: /*#000*/ #555;
@@ -80,23 +80,23 @@
 <form action="/action_page.php">
     <div class="form-group">
       <label for="nombre" style="color:white;">Nombre:</label>
-      <input  type="text" class="form-control" id="nombre" placeholder="Enter Nombre" value="" name="nombre">
+      <input onblur="Validar3()" type="text" class="form-control" id="nombre" placeholder="Enter Nombre" value="" name="nombre">
     </div>
     <div class="form-group">
       <label for="apellidopaterno" style="color:white;">Apellido Paterno:</label>
-      <input type="text" class="form-control" id="ap" placeholder="Enter Apellido Paterno" name="apellidopaterno">
+      <input onblur="Validar3()" type="text" class="form-control" id="apellidopaterno" placeholder="Enter Apellido Paterno" name="apellidopaterno">
     </div>
     <div class="form-group">
       <label for="apellidomaterno" style="color:white;">Apellido Materno:</label>
-      <input type="text" class="form-control" id="am" placeholder="Enter Apellido Materno" name="apellidomaterno">
+      <input onblur="Validar3()" type="text" class="form-control" id="apellidomaterno" placeholder="Enter Apellido Materno" name="apellidomaterno">
     </div>
     <div class="form-group">
       <label for="partidopolitico" style="color:white;">Partido Politico:</label>
-      <input type="text" class="form-control" id="part" placeholder="Enter Partido Politico" name="partidopolitico">
+      <input onblur="Validar3()" type="text" class="form-control" id="partidopolitico" placeholder="Enter Partido Politico" name="partidopolitico">
     </div>
     <div class="form-group">
       <label for="telefono" style="color:white;">Telefono:</label>
-      <input type="number" class="form-control" id="tel" placeholder="Enter Telefono" name="telefono">
+      <input onblur="Validar3()" type="number" class="form-control" id="telefono" placeholder="Enter Telefono" name="telefono">
     </div>
     <br>
     
@@ -104,7 +104,7 @@
     <button type="submit" class="btn btn-default" id="bregis" >Registrarse</button>
     
     <br>
-    <div id="alert">---</div>
+    <div id="alert3">---</div>
 </form>
 </div>
 <br>

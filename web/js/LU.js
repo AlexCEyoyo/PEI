@@ -18,13 +18,6 @@ function Validar(){
     }
 }
 
-
-
-
-
-
-
-
 function Validar2(){
     var noboleta  = document.getElementById("NoBoleta").value;
 
